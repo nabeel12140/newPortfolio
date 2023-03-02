@@ -1,0 +1,179 @@
+body {
+    background-color: black;
+    font-family: "Bookman, URW Bookman L, serif";
+}
+.display
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel
+{
+    height: 75%;
+}
+.color-white
+{
+    color: white;
+}
+.third
+{
+    color: white;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.yellow{
+    color: white;
+    opacity: 60%;
+}
+.yellow:hover
+{
+    color: yellow;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    opacity: 100%;
+}
+.bg
+{
+    background: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.marketing
+{
+    margin-top: 7rem;
+}
+.featurette
+{
+    margin-top: 5rem;
+}
+.nav
+{
+    font-family: "New Century Schoolbook, TeX Gyre Schola, serif";
+}
+.brand
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text_actor
+{
+    font-family: "Brush Script MT, Brush Script Std", cursive;
+    color: yellow;
+    cursor: pointer;
+}
+.text_actor_hover
+{
+    opacity: 90%;
+}
+.text_actor_hover:hover{
+    opacity: 100%;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.left_opacity{
+    opacity: 70%;
+}
+.grid-3
+{
+    display: flex;
+    justify-content: space-between;
+}
+.grid-3s{
+    display: flex;
+    flex-direction: column;
+}
+.grid-3l
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.border-3s
+{
+    border-radius: 2rem;
+    border: 0.3rem solid yellow;
+    padding: 1rem;
+}
+.top-m
+{
+    margin-top: 9rem;
+}
+
+.grid-3row
+{
+    display: flex;
+    gap: 0.5rem;
+}
+.img-card
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+.img-card img
+{
+    opacity: 70%;
+}
+.btn-outline-secondary
+{
+    color: white;
+    border: 0.2px solid yellow;
+}
+.btn-outline-secondary:hover
+{
+    color: black;
+    background-color: yellow;
+    transition: 0.5s ease-in;
+}
+.btn-edit
+{
+    color: rgb(129, 106, 231);
+    border: 0.2px solid rgb(4, 141, 233);   ;
+}
+.btn-edit:hover{
+    color: white;
+    background-color: rgb(4, 141, 233);
+    opacity: 70%;
+    transition: 0.5s ease-in;
+}
+.btn-view
+{
+    color: white;
+    border: 1px solid rgb(4, 141, 233);;
+}
+.btn-view:hover
+{
+    color: white;
+    background-color: rgb(4, 141, 233);
+    transition: 0.5s ease-in;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .bot{
+    animation: rotate 3s linear infinite;
+  }
+  @keyframes rotate {
+    from{
+        transform: rotate(0ded);
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }
+  }
+  
+/* 
+<div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div> */ 
